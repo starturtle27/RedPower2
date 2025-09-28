@@ -30,7 +30,7 @@ public class AchieveLib {
         }
 
         Achievement ac = new Achievement(name, name, x, y, icon, acreq);
-        ac.registerStat();
+       // ac.registerStat();
         if (special) {
             ac.setSpecial();
         }
